@@ -1,0 +1,12 @@
+#other file types not included
+
+#3D model
+*.step
+*.stp
+*.stl
+*.3mf
+*.FCBak
+
+*.hierpcb.json
+*.hierpcb.log
+*fp-info-cache
