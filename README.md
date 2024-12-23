@@ -5,7 +5,7 @@ This is a basic Popsicle Stick Bridge Tester designed for use in a classroom env
 
 This project was created to easily test popsicle stick bridges that students created as a part of the curriculum. This allows a safer and more accurate testing method compared to other more traditional methods.
 
-#Project Notes
+# Project Notes
 
 Because this is a one-off project little effort was put into refining the project. Certain aspects of the project need manual modification to allow for working functionality.
   1. The onboard regulator for the -5V rail only can produce -3.3V due to being fed 3.3v and a misunderstanding in the datasheet. The fix for this was to simply change the resistors to set the output voltage to -3V. Because the -5V rail is used to excite the load cell the output voltage is slightly lower making it more difficult to measure.
